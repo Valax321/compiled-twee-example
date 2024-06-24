@@ -1,0 +1,17 @@
+{
+  "name": "compiled-twee-example",
+  "version": "1.0.0",
+  "main": "compile.js",
+  "type": "module",
+  "scripts": {
+    "build": "node compile.js",
+    "test": "vite dist"
+  },
+  "author": "Audrey Castillo",
+  "license": "CC0-1.0",
+  "description": "An example project showing an extremely basic setup for writing twine games in the text-based twee format.",
+  "devDependencies": {
+    "extwee": "^2.2.3",
+    "vite": "^5.3.1"
+  }
+}
