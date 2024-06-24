@@ -2,7 +2,7 @@
 
 An example project showing an extremely basic setup for writing twine games in the text-based twee format, which can be compiled into a playable game with a tool like extwee.
 
-The Twine editor is a cool tool, but it doesn't play well with version control for us freaks who insist on keeping anything remotely text-based in git. With this workflow, a twine project can be stored in
+The Twine editor is a cool tool, but it doesn't play well with version control for us freaks who insist on keeping anything remotely text-based in git. With this workflow, a twine project can be stored in a diff-friendly text format called Twee (apparently twine html files use this internally but store it in a way that makes diffing less reliable).
 
 ## Usage
 
